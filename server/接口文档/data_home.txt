@@ -1,0 +1,23 @@
+接口描述
+    请求地址  /data/home
+    请求方式  GET
+    文档格式  application/json
+    编码格式  UTF-8...
+    ...
+请求携带的数据
+    query:
+        num:   商品数量
+    如果是post请求，可以定义data数据
+    data
+        type  商品类别
+响应返回的数据
+   "list": [   Array  商品列表
+		{
+			"img":   String  商品图片,
+			"title": String  商品标题,
+			"sales": Number  商品售卖数量,
+			"price": Number  商品价格,
+			"originPrice": Number  商品原价,
+			"_id": String  商品id
+		},
+   ]

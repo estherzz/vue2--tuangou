@@ -1,0 +1,11 @@
+// header导航背景颜色
+$hd-color: #06c1ae;
+
+// 三角形混合 大小 颜色 方向
+@mixin arrow($w:10px,$c:black,$dir:top){
+    // 兼容块元素（宽度100%） 行内元素（最小字号）
+    width: 0;
+    font-size: 0;
+    border: $w solid transparent;
+    border-#{$dir}-color:$c;
+}

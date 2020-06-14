@@ -1,0 +1,92 @@
+[
+	{
+		"img": "/static/img/list/07.jpg",
+		"title": "300元储值卡1张，可叠加",
+		"sales": 3,
+		"price": 275,
+		"originPrice": 300,
+		"evaluate": 3.6,
+		"_id": "7"
+	},
+	{
+		"img": "/static/img/list/08.jpg",
+		"title": "6人烤肉，提供免费WiFi",
+		"sales": 12226,
+		"price": 178,
+		"originPrice": 305,
+		"evaluate": 3.9,
+		"_id": "8"
+	},
+	{
+		"img": "/static/img/list/09.jpg",
+		"title": "商务套餐，建议2-3人使用",
+		"sales": 11,
+		"price": 198,
+		"originPrice": 338,
+		"evaluate": 4.1,
+		"_id": "9"
+	},
+	{
+		"img": "/static/img/list/05.jpg",
+		"title": "黑森林1个，约8英寸，圆形",
+		"sales": 44,
+		"price": 87,
+		"originPrice": 128,
+		"evaluate": 4.5,
+		"_id": "1"
+	},
+	{
+		"img": "/static/img/list/06.jpg",
+		"title": "单人餐，包间免费",
+		"sales": 101,
+		"price": 13,
+		"originPrice": 30,
+		"evaluate": 3.8,
+		"_id": "2"
+	},
+	{
+		"img": "/static/img/list/01.jpg",
+		"title": "四人餐，提供免费WiFi",
+		"sales": 241,
+		"price": 89,
+		"originPrice": 105,
+		"evaluate": 4.2,
+		"_id": "3"
+	},
+	{
+		"img": "/static/img/list/02.jpg",
+		"title": "晚餐自助，提供免费WiFi",
+		"sales": 13126,
+		"price": 45.5,
+		"originPrice": 60,
+		"evaluate": 3.9,
+		"_id": "4"
+	},
+	{
+		"img": "/static/img/list/03.jpg",
+		"title": "单人牛排自助假日2选1，提供免费WiFi",
+		"sales": 9890,
+		"price": 49.9,
+		"originPrice": 70,
+		"evaluate": 4.9,
+		"_id": "5"
+	},
+	{
+		"img": "/static/img/list/04.jpg",
+		"title": "蛋糕1选1,约12英寸，圆形",
+		"sales": 8,
+		"price": 88,
+		"originPrice": 260,
+		"evaluate": 4.6,
+		"_id": "6"
+	},
+	{
+		"img": "/static/img/list/10.jpg",
+		"title": "超值套餐，建议2人使用",
+		"sales": 90,
+		"price": 68,
+		"originPrice": 148,
+		"evaluate": 4.3,
+		"_id": "10"
+	}
+]
