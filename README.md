@@ -1,11 +1,12 @@
 ## 说明：
 本项目包含 移动端（vue全家桶）+pc端后台管理系统（自建vue脚手架）+服务器端（nodejs+mongodb）
-github地址：
+github地址：[https://github.com/estherzz/vue2--tuangou](https://github.com/estherzz/vue2--tuangou)
+
 
 ## 技术栈
-vue cli, vue, vuex, vue-router, axios, webpack, ES6, ES Module, mongodb，ElementUI，nodejs,  express,  mongodb
+vue cli, vue, vuex, vue-router, axios, webpack, ES6, ES Module, mongodb，ElementUI，nodejs,  express,  mongodb, session
 
-## 实现功能
+##实现功能
 **移动端：**
 - 分类模块
    `查看更多`
@@ -27,18 +28,20 @@ vue cli, vue, vuex, vue-router, axios, webpack, ES6, ES Module, mongodb，Elemen
   `刷新免重复登录`
   `修改用户名/密码`
   `二次确认密码` 
-- 创建商品
-  
+- 商品管理
+  `创建商品`
   `图片上传`
-- 编辑商品
-- 删除商品
-- 商品列表
+  `编辑商品`
+  `删除商品`
+  `商品列表`
 - 用户管理
   `创建用户`
   `用户列表`
  
 
 ## 项目运行
+git clone https://github.com/estherzz/vue2--tuangou.git
+
 - 安装mongodb    [https://www.mongodb.com/try/download/community](https://www.mongodb.com/try/download/community)
 `MongoDB将数据目录存储在 db 目录下。但是这个数据目录不会主动创建，在安装完成后需要创建，并且数据目录放在根目录下（(如： C:\ 或者 D:\ 等 )`
 `推荐在 C 盘安装 mongodb=>创建一个 data 的目录 => data 目录里创建 db 目录。`
@@ -87,14 +90,38 @@ nodejs: ^12.16.2.0
 ![购买页面价格结算.gif](https://upload-images.jianshu.io/upload_images/20110534-a81568bbd2633344.gif?imageMogr2/auto-orient/strip)
 
 ## 后台管理系统PC端截图
-![创建商品.png](https://upload-images.jianshu.io/upload_images/20110534-b5e330cddb49c8f4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
-
-![创建用户.png](https://upload-images.jianshu.io/upload_images/20110534-4084e7b389c3a8a2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
 
 ![登录.png](https://upload-images.jianshu.io/upload_images/20110534-62bff4b297b73809.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
 
+![创建商品.png](https://upload-images.jianshu.io/upload_images/20110534-b5e330cddb49c8f4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
+
 ![商品列表.png](https://upload-images.jianshu.io/upload_images/20110534-f026528d49a88861.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
+
+![创建用户.png](https://upload-images.jianshu.io/upload_images/20110534-4084e7b389c3a8a2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
 
 ![用户列表.png](https://upload-images.jianshu.io/upload_images/20110534-90b3033cf8243b0f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
 
 ## 后台管理系统PC端gif效果图
+![admin首页.gif](https://upload-images.jianshu.io/upload_images/20110534-cc25145bcaed242d.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
+
+![创建商品.gif](https://upload-images.jianshu.io/upload_images/20110534-6e85216959c72603.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
+
+![创建商品.png](https://upload-images.jianshu.io/upload_images/20110534-d0af6f825c2facb7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
+
+![创建用户.png](https://upload-images.jianshu.io/upload_images/20110534-a8a59e4ba0d33eb3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
+
+![登录.png](https://upload-images.jianshu.io/upload_images/20110534-5b1efa34e146b6e7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
+
+![删除商品.gif](https://upload-images.jianshu.io/upload_images/20110534-4b21f6b98df78bbc.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
+
+![商品列表.gif](https://upload-images.jianshu.io/upload_images/20110534-46a9f3df5caaee95.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
+
+![商品列表.png](https://upload-images.jianshu.io/upload_images/20110534-8f08d09ec4803677.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
+
+![修改密码.gif](https://upload-images.jianshu.io/upload_images/20110534-dd999798213f5da3.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
+
+![修改商品.gif](https://upload-images.jianshu.io/upload_images/20110534-5c37bccad22540c6.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
+
+![用户列表.png](https://upload-images.jianshu.io/upload_images/20110534-4b2d38bcba74f135.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
+
+![用户列表+创建用户.gif](https://upload-images.jianshu.io/upload_images/20110534-a18d8bc9b47828ea.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
