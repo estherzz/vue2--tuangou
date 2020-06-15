@@ -7,7 +7,7 @@ github地址：[https://github.com/estherzz/vue2--tuangou](https://github.com/es
 ## 技术栈
 vue cli, vue, vuex, vue-router, axios, webpack, ES6, ES Module, mongodb，ElementUI，nodejs,  express,  mongodb, session
 
-##实现功能
+## 实现功能
 **移动端：**
 - 分类模块
    `查看更多`
@@ -41,7 +41,7 @@ vue cli, vue, vuex, vue-router, axios, webpack, ES6, ES Module, mongodb，Elemen
  
 
 ## 项目运行
-git clone https://github.com/estherzz/vue2--tuangou.git
+ git clone https://github.com/estherzz/vue2--tuangou.git
 
 - 安装mongodb    [https://www.mongodb.com/try/download/community](https://www.mongodb.com/try/download/community)
 `MongoDB将数据目录存储在 db 目录下。但是这个数据目录不会主动创建，在安装完成后需要创建，并且数据目录放在根目录下（(如： C:\ 或者 D:\ 等 )`
