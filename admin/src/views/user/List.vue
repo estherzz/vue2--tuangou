@@ -2,11 +2,7 @@
     <div class="page-userList">
         <h2 class="main-title">用户列表</h2>
              <el-table :data="data" style="width: 100%">
-                <el-table-column
-                    prop="_id"
-                    label="id"
-                    >
-                </el-table-column>
+               
 
                 <el-table-column
                   prop="username"
@@ -51,10 +47,13 @@
     </div>
 </template>
 <style lang="scss" scoped>
-    .btns{
+    .page-userList{
+        .btns{
         margin-top: 20px;
         text-align: center;
     }
+    }
+    
 </style>
 <script>
 import MyButton from '@c/MyButton';

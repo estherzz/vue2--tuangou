@@ -12,7 +12,8 @@ module.exports = new Router()
     .get('/admin/user/detail',require('./user/detail'))
   
     
-    .post('/admin/login',require('./manager/login'))
+    .post('/admin/login', require('./manager/login'))
+    .post('/admin/userInfo',require('./manager/userInfo'))
     // 修改用户名密码
     .post('/admin/manager/updata', require('./manager/updata'))
     

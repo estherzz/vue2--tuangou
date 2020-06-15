@@ -30,15 +30,17 @@ export default new Store({
         },
         // 检查用户信息
         userInfo(store) {
-            this.$http.post('/admin/user')
-            store.commit('updateUsername', 'hello yworld')
-            console.log(22222,localStorage)
-            // this._vm.$http.get('/admin/userInfo')
-            //     .then(({data})=>{
-            //         if(data.errno === 0){
-            //             store.commit('updateUsername',data.data)
-            //         }
-            //     })
+            
+            console.log('useinfo',this._vm)
+            this._vm.$http.post('/admin/userInfo')
+                .then(({ data }) => {
+                    console.log(1111, data)
+                    if (data.errno === 0) {
+                        // 设置
+                        store.commit('updateUsername', data.data)
+                    }
+                })
+            
         }
     }
 })

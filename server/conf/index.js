@@ -20,7 +20,7 @@ module.exports={
         // 登录失败
         loginErr: { errno: 2,msg:'用户名或密码错误'},
         // 没有登录
-        notLogin: { errno: 3,msg:'该用户尚未登录，请登录！'},
+        notLogin: { errno: 3,msg:'用户尚未登录，请登录！'},
         // 查询集合错误
         collectionFindError: { errno: 4,msg:'数据库错误'},
         // 没有找到数据
