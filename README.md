@@ -81,19 +81,29 @@ vue cli, vue, vuex, vue-router, axios, webpack, ES6, ES Module, mongodb，Elemen
 ![项目文件目录.png](https://upload-images.jianshu.io/upload_images/20110534-4254f3077fedd9fe.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 - 导入数据：
+
  mongoimport -d bp_data -c product --file ./database/product
+ 
 - **进入server目录**
+
  cd server
+ 
 - 打开务器
+
  node app.js
+ 
 - 打开网页
+
   移动端  [http://localhost:3003/](http://localhost:3003/) （按键F12 => 调成手机模式）
+  
   后台管理系统pc端 [http://localhost:3003/admin/](http://localhost:3003/admin/)  (初始登录账号：yiyi，密码：123abc)
 
 
 
 **版本：**
+
 mongodb： ^3.5.4
+
 nodejs: ^12.16.2.0
 
 ## 移动端截图
