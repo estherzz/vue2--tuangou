@@ -65,7 +65,7 @@ vue cli, vue, vuex, vue-router, axios, webpack, ES6, ES Module, mongodb，Elemen
  
 
 ## 项目运行
- git clone https://github.com/estherzz/vue2--tuangou.git
+ - git clone https://github.com/estherzz/vue2--tuangou.git
 
 - 安装mongodb    [https://www.mongodb.com/try/download/community](https://www.mongodb.com/try/download/community)
 
