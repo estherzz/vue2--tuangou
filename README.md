@@ -1,5 +1,6 @@
 ## 说明：
 本项目包含 移动端（vue全家桶）+pc端后台管理系统（自建vue脚手架）+服务器端（nodejs+mongodb）
+
 github地址：[https://github.com/estherzz/vue2--tuangou](https://github.com/estherzz/vue2--tuangou)
 
 
