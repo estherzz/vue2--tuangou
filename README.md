@@ -69,34 +69,36 @@ vue cli, vue, vuex, vue-router, axios, webpack, ES6, ES Module, mongodb，Elemen
 
 - 安装mongodb    [https://www.mongodb.com/try/download/community](https://www.mongodb.com/try/download/community)
 
-`MongoDB将数据目录存储在 db 目录下。但是这个数据目录不会主动创建，在安装完成后需要创建，并且数据目录放在根目录下（(如： C:\ 或者 D:\ 等 )`
-`推荐在 C 盘安装 mongodb=>创建一个 data 的目录 => data 目录里创建 db 目录。`
+   `MongoDB将数据目录存储在 db 目录下。但是这个数据目录不会主动创建，在安装完成后需要创建，并且数据目录放在根目录下（(如： C:\ 或者 D:\ 等 )`
+   `推荐在 C 盘安装 mongodb=>创建一个 data 的目录 => data 目录里创建 db 目录。`
 
-- 安装 nodejs   [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+- 安装 nodejs   
+   [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
 - 打开数据库 
-  mongod --dbpath 自定义想要存储数据的数据库位置
+
+   mongod --dbpath 自定义想要存储数据的数据库位置
 
 - 在项目文件目录打开命令窗口
 
-![项目文件目录.png](https://upload-images.jianshu.io/upload_images/20110534-4254f3077fedd9fe.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+   ![项目文件目录.png](https://upload-images.jianshu.io/upload_images/20110534-4254f3077fedd9fe.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 - 导入数据：
 
- mongoimport -d bp_data -c product --file ./database/product
+   mongoimport -d bp_data -c product --file ./database/product
  
 - **进入server目录**
 
- cd server
+   cd server
  
 - 打开务器
 
- node app.js
+   node app.js
  
 - 打开网页
 
-  移动端  [http://localhost:3003/](http://localhost:3003/) （按键F12 => 调成手机模式）
-  
-  后台管理系统pc端 [http://localhost:3003/admin/](http://localhost:3003/admin/)  (初始登录账号：yiyi，密码：123abc)
+    移动端  [http://localhost:3003/](http://localhost:3003/) （按键F12 => 调成手机模式）
+   
+    后台管理系统pc端 [http://localhost:3003/admin/](http://localhost:3003/admin/)  (初始登录账号：yiyi，密码：123abc)
 
 
 
@@ -107,6 +109,8 @@ mongodb： ^3.5.4
 nodejs: ^12.16.2.0
 
 ## 移动端截图
+首页 + 商品列表页 + 商品列表 & 查看更多 + 商品列表 & 搜索结果 + 商品详情 + 购物结算
+ 
 ![首页.png](https://upload-images.jianshu.io/upload_images/20110534-74ebd270cc682082.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/200)
 ![商品列表页.png](https://upload-images.jianshu.io/upload_images/20110534-25af2fdc2494e464.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/200)
 ![商品列表+查看更多.png](https://upload-images.jianshu.io/upload_images/20110534-49dbd7b8e67dda7a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/200)
@@ -115,6 +119,9 @@ nodejs: ^12.16.2.0
 ![购物结算.png](https://upload-images.jianshu.io/upload_images/20110534-9d79791bd3afadb6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/200)
 
 ## 移动端gif效果动图
+
+首页 + 美食模块 -- 查看更多 & 价格排序 & 好评排序 & 销量排序 & 优惠排序 & 搜索功 + 跳转商品详情 + 底部价格结算 + 购买页面价格结算
+
 ![首页.gif](https://upload-images.jianshu.io/upload_images/20110534-819e33f9ccac743a.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/200)
 ![美食模块 -- 查看更多+价格排序+好评排序+销量排序+优惠排序+搜索功能.gif](https://upload-images.jianshu.io/upload_images/20110534-e7e4648db2fc9cbe.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/200)
 ![跳转商品详情.gif](https://upload-images.jianshu.io/upload_images/20110534-bcc12e2bd644f76d.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/200)
@@ -122,6 +129,8 @@ nodejs: ^12.16.2.0
 ![购买页面价格结算.gif](https://upload-images.jianshu.io/upload_images/20110534-a81568bbd2633344.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/200)
 
 ## 后台管理系统PC端截图
+
+登录 + 创建商品 + 商品列表 + 创建用户 + 用户列表
 
 ![登录.png](https://upload-images.jianshu.io/upload_images/20110534-62bff4b297b73809.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
 
@@ -134,6 +143,9 @@ nodejs: ^12.16.2.0
 ![用户列表.png](https://upload-images.jianshu.io/upload_images/20110534-90b3033cf8243b0f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
 
 ## 后台管理系统PC端gif效果图
+
+admin首页 + 创建商品 + 商品列表 + 删除商品 + 修改商品 + 修改密码 + 用户列表 & 创建用户
+
 ![admin首页.gif](https://upload-images.jianshu.io/upload_images/20110534-cc25145bcaed242d.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
 
 ![创建商品.gif](https://upload-images.jianshu.io/upload_images/20110534-6e85216959c72603.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
