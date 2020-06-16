@@ -1,7 +1,7 @@
 ## 说明：
 本项目包含 移动端（vue全家桶）+pc端后台管理系统（自建vue脚手架）+服务器端（nodejs+mongodb）
 
-github地址：https://github.com/estherzz/vue-vue-cli--tuangou
+github地址：https://github.com/estherzz/vue2--tuangou
 
 ## 技术栈
 vue cli, vue, vuex, vue-router, axios, webpack, ES6, ES Module, mongodb，ElementUI，nodejs,  express,  mongodb, session
@@ -64,7 +64,7 @@ vue cli, vue, vuex, vue-router, axios, webpack, ES6, ES Module, mongodb，Elemen
  
 
 ## 项目运行
- - git clone https://github.com/estherzz/vue-vue-cli--tuangou.git
+ - git clone https://github.com/estherzz/vue2--tuangou.git
 
 - 安装mongodb    [https://www.mongodb.com/try/download/community](https://www.mongodb.com/try/download/community)
 
