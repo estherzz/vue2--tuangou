@@ -76,8 +76,17 @@ export default {
                             this.data=data.data;
                             return;
                         }
-                        this.$message.error('当前为最后一页')
-                        this.$router.back()
+                        this.$router.replace('/user/list/'+(params.page-1))
+                        //控制提示信息出现频次
+                        if (this.lock) {
+                                clearTimeout(this.timer)
+                                this.timer = setTimeout(() => {
+                                    this.lock = false
+                                }, 1000)
+                            } else {
+                                this.lock = true
+                                this.$message.error('当前是最后一页 ')
+                            }
                     })
             }else{
                 //当page不是数字时跳转第一页 
